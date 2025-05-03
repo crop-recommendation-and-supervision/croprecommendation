@@ -46,7 +46,7 @@ export default function SignupPage() {
 
     if (success) {
       redirectTimer = setTimeout(() => {
-        router.push("/pending-approval")
+        router.push("/auth/pending-approval")
       }, 3000) // Redirect after 3 seconds
     }
 
